@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "touch twitter_account.js >> \"module.exports = { consumer_key: '', consumer_secret: '', access_token_key: '', access_token_secret: '' }\"",
+    "build": "echo \"module.exports = { consumer_key: '', consumer_secret: '', access_token_key: '', access_token_secret: '' }\" > twitter_account.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Connor Elsea",
